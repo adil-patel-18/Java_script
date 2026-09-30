@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <script>
+        let Name="Adil Patel";
+        let RollNo=9002;
+        let Cources="B.sc Computer scince";
+
+        let Python=89;
+        let Java=69;
+        let javascript=89;
+    
+        let total= Python+Java+javascript;
+        let per=total/300*100;
+        let a=10;
+        let b=20;
+
+        let add=(a,b)=>a+b;
+        let sub=(a,b)=>a-b;
+        let result=`
+        <h2>Student report</h2>
+        <p><b>Name :</b>${Name}</p>
+        <p><b>RollNo :</b>${RollNo}</p>
+        <p><b>Cources :</b>${Cources}</p>
+        <hr>
+        <p><b>Python :</b>${Python}</p>
+        <p><b>Java :</b>${Java}</p>
+        <p><b>javascript :</b>${javascript}</p>
+         <hr>
+        <p><b>Total :</b>${total}</p>
+         <p><b>per :</b>${per}</p>
+        `;
+       document.write(result);
+       document.write(add(a,b),"<br>")
+       document.write(sub(a,b))
+        
+      </script>
+</body>
+</html>
